@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="/index.css">
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <title>Basketball Scoreboard</title>
+    </head>
+    <body>
+    <div class="outside_border">
+                <div class="container">
+                    <div>
+                        <h3>HOME</h3>
+                    </div>
+                    <div>
+                        <h3>GUEST</h3>
+                    </div>
+
+                </div>
+                <div class="container">
+                    <div>
+                    <h2 class="sum_container" id="sum_home">0</h2>
+                    </div>
+                    <div>
+                    <h2 class="sum_container"id="sum_guest">0</h2>
+                </div>
+                </div>
+                
+                <div class="container">
+                    
+                    <div class="outside_add">
+                    <div class="addpoints">
+                        <btn onclick="HomeAddOne()">+1</btn>
+                    </div>
+                    <div class="addpoints">
+                        <btn onclick="HomeAddTwo()">+2</btn>
+                    </div>
+                    <div class="addpoints">
+                        <btn onclick="HomeAddThree()">+3</btn>
+                    </div>
+                </div>
+                <div class="outside_add">
+                    <div class="addpoints">
+                        <btn onclick="GuestAddOne()">+1</btn>
+                    </div>
+                    <div class="addpoints">
+                        <btn onclick="GuestAddTwo()">+2</btn>
+                    </div>
+                    <div class="addpoints">
+                        <btn onclick="GuestAddThree()">+3</btn>
+                    </div>
+                </div>
+            </div>
+               
+
+    </div>           
+            <footer>
+                <div><p >Made by <a href="https://github.com/alicewu1991">Alice Wu</a></p></div>
+                <div><p >Website made as part of the JavaScript Course provided by <a href="https://scrimba.com/">Scrimba</a></p></div>
+            </footer>
+        <script src="/index.js"></script>
+    </body>
+</html>

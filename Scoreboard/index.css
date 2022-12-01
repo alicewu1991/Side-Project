@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url(https://www.1001fonts.com/digital-7-font.html);
+ 
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80);
+}
+
+.outside_border{
+  padding: 80px;
+  border: 1px solid #fff;
+  border-radius:15px;
+  background-color: #1B244A;
+}
+
+.container {
+    display: flex; 
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+.sum_container{
+    width: 155px;
+    height: 120px;
+    background: black;
+color:#F94F6D; 
+font-family: 'Orbitron', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 90px;
+margin:0px 59px 26px 59px;
+
+}
+
+h3{
+color:white;
+line-height:35.9px;
+text-decoration: bold;
+font-size: 40px;
+margin-bottom: 21px;
+}
+
+.outside_add{
+  display:flex;
+}
+
+.addpoints{
+ border: 1px solid #9AABD8; 
+  border-radius:5px;
+  color:#9AABD8;
+  font-family: 'Orbitron', sans-serif;
+  width: 45px;
+  height: 45px;
+  display: flex;
+justify-content: center;
+align-items: center;
+margin:0px 5px ;
+}
+
+footer{
+  color: rgb(224, 224, 224);
+  padding:1rem; 
+  box-sizing: border-box; 
+  position: absolute; 
+  bottom: 0;
+  text-align: center;
+  text-decoration: bold;
+}
+
+footer a{
+  color: rgb(224, 224, 224)
+}
+
+
+
+
